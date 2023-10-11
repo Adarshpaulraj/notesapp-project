@@ -9,10 +9,10 @@
     <BrowserRouter>
     <Sidebar/> 
     <Routes>
-       <Route path="/notes" element={<UserContext><Notes/></UserContext>}/>
+       <Route path="*" element={<UserContext><Notes/></UserContext>}/>
      </Routes>
     </BrowserRouter>
-     </div>
+      </div>
      
   </> 
   
